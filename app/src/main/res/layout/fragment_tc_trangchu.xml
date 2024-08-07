@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmenttrangchu.tcTrangchuFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ViewFlipper
+                android:id="@+id/viewflipper"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:layout_marginBottom="10dp"></ViewFlipper>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/qchaha" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="SẢN PHẨM MỚI NHẤT"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcv_sanpham"
+                android:layout_width="match_parent"
+                android:layout_height="1020dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/qcneee" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="VỀ CHÚNG TÔI"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Boutique®-Popular Streetwear brand"
+                android:textColor="#999999"
+                android:textSize="22sp" />
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="left"
+                android:text="Chúng tôi là thương hiệu thời trang Đường phố nổi tiếng với định hướng cung cấp sản phẩm có chất lượng cao, sành điệu với giá thành hợp lý."
+                android:textColor="#999999"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/vechungtoi" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Chúng tôi là ai?"
+                android:textColor="#999999"
+                android:textSize="22sp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="left"
+                android:text="Boutique® là lựa chọn hàng đầu dành cho các tín đồ thời trang Đường phố sành điệu. Sứ mệnh của Boutique® là trao quyền cho thế hệ trẻ toàn thế giới tự do thể hiện phong cách thông qua thời trang, thương hiệu vượt qua ranh giới của thời trang đường phố bằng cách không ngừng sáng tạo các trang phục với các bộ sưu tập độc đáo."
+                android:textColor="#999999"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/vechungtoi1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Chất lượng trải nghiệm vượt trội"
+                android:textColor="#999999"
+                android:textSize="22sp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="left"
+                android:text="Chúng tôi không ngừng nỗ lực, tập trung vào chất lượng sản phẩm và trải nghiệm mua sắm vượt trội nhất chưa từng có trước đây, các cửa hàng vật lý của chúng tôi, tối ưu hóa trải nghiệm, giúp người dùng mua sắm một sản phẩm cao cấp thật sự.\n\nMua sắm trực tuyến dễ dàng, đa nền tảng trải nghiệm tuyệt vời. Giá thành hợp lý.\nĐiều này đã giải quyết bài toán để bạn vừa cân đối khả năng tài chính, vừa đáp ứng hoàn hảo cho nhu cầu thời trang của bạn và xu hướng nhanh của thời đại."
+                android:textColor="#999999"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/vechungtoi2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="Biểu tượng thời trang thời đại mới"
+                android:textColor="#999999"
+                android:textSize="22sp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:gravity="left"
+                android:text="Tại Boutique®, mỗi sản phẩm đều mang theo sự cá tính và sành điệu, đại diện cho hình ảnh giới trẻ hiện đại - biểu tượng cho sự dẫn đầu phong cách thời đại mới.\n\nQuần áo có thể sẽ lỗi thời nhưng phong cách thời trang thì không. Tầm nhìn độc đáo của Boutique® chính là để mỗi cá nhân tự do thể hiện phong cách khi khoác lên mình những sản phẩm được tạo nên từ sự đam mê, mang giá trị của thế hệ mới, đầy trẻ trung, năng động và luôn không ngừng khẳng định bản thân, hướng đến tương lai.\n\nSự đầu tư từ chất lượng đóng gói, bao bì sản phẩm đến mỗi thước phim, hình ảnh cho tới cách làm chủ được nghệ thuật sắc màu và chỉn chu trong từng chi tiết đã đưa Boutique® trở thành một trong những thương hiệu thời trang Đường phố được giới trẻ yêu thích, tin dùng hàng đầu tại Việt Nam."
+                android:textColor="#999999"
+                android:textSize="18sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/vechungtoi3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:text="THÔNG BÁO QUAN TRỌNG"
+                android:textColor="@color/black"
+                android:textSize="28sp" />
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- THỜI GIAN GIAO HÀNG DIỆP LỄ 30.04-01.05"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="14dp"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- CHƯƠNG TRÌNH NHẬN SẢN PHẨM TRẢI NGHIỆM"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="14dp"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- THÔNG TIN VỀ KÊNH TRUYỀN THÔNG CHÍNH THỨC CỦA CỬA HÀNG"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="14dp"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- HỆ THỐNG CỬA HÀNG"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="14dp"
+                    />
+                <TextView
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="- PHƯƠNG THỨC THANH TOÁN ATM"
+                    android:textColor="#999999"
+                    android:layout_marginBottom="14dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="TRANG CHỦ" android:id="@+id/mnTrangchu" android:icon="@drawable/baseline_home_24" />
+    <item android:title="DANH MỤC" android:id="@+id/mnDanhmuc" android:icon="@drawable/baseline_manage_search_24" />
+    <item android:title="YÊU THÍCH" android:id="@+id/mnYeuthich" android:icon="@drawable/baseline_favorite_24" />
+    <item android:title="THÔNG BÁO" android:id="@+id/mnThongbao" android:icon="@drawable/baseline_notificationss_24"/>
+    <item android:title="THÀNH VIÊN" android:id="@+id/mnThanhvien" android:icon="@drawable/baseline_card_membership_24"/>
+</menu>

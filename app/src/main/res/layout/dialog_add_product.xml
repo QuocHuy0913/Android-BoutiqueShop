@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <EditText
+        android:id="@+id/edImage_Pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nhập hình"
+        />
+    <EditText
+        android:id="@+id/edName_Pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nhập tên"
+        />
+    <EditText
+        android:id="@+id/edPrice_Pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nhập giá"
+        />
+    <EditText
+        android:id="@+id/edDescription_Pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nhập mô tả"
+        />
+    <EditText
+        android:id="@+id/edCategory_Pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:hint="Nhập loại sản phẩm"
+        />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DoAn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="listview_khac">
+        <item>BẮT ĐẦU</item>
+        <item>CÂU HỎI THƯỜNG GẶP</item>
+        <item>ĐIỀU KHOẢN SỬ DỤNG</item>
+        <item>CHÍNH SÁCH BẢO MẬT</item>
+        <item>PHIÊN BẢN: 7.2.40</item>
+        <item>GIẤY PHÉP OSS</item>
+    </string-array>
+</resources>

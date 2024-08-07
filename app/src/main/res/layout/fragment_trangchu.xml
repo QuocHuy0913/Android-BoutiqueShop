@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".fragment.TrangchuFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:id="@+id/navTimKiem"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_marginTop="2dp"
+            android:id="@+id/imgsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/baseline_searchhh_24"
+            android:layout_marginRight="4dp"
+            />
+        <EditText
+            android:id="@+id/edSearch"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:hint="Bạn đang tìm kiếm sản phẩm ?"
+            android:textSize="17dp"
+            android:textColorHint="@color/black"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right">
+            <TextView
+                android:id="@+id/tvUserName_fm_trangchu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:text="helloShop"
+                android:textColor="@color/black"
+                android:layout_marginRight="8dp"
+                />
+            <FrameLayout
+                android:id="@+id/framegiohang"
+                android:layout_width="55dp"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="right">
+                <com.nex3z.notificationbadge.NotificationBadge
+                    android:id="@+id/menu_sl"
+                    android:layout_gravity="top|right"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="6dp"
+                    />
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/baseline_shopping_cart_24"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:background="@color/white"
+        app:tabTextColor="#999999"
+        app:tabSelectedTextColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navTimKiem"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/order_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout" />
+
+
+</RelativeLayout>
